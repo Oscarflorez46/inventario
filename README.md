@@ -53,5 +53,19 @@ dentro del index.js pusimos el codigo:
 - app.listen(PORT,()=>{ :escucha el puerto y avisame si lo estas escuchando
 - console.log(`Listening port ${PORT}`) el mensaje de que todo esta bien 
 
+creamos las siguientes carpertas 
+```
+controllers
+routes
+```
+
+dentro de las carpetas creamos los siguientes documentos 
+```
+helloControllers.js
+helloRoutes.js
+```
 
 
+git add .
+git commit -m""
+git push
