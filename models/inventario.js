@@ -9,6 +9,15 @@ const HerramientaSchema = new Schema({
     unidades:{
         type:Number,
         default:0
+    },
+    precio:{
+        type:Number,
+        required:true
+    },
+    color:{
+        type:String
     }
+
+
 })
 module.exports= mongoose.model("Herramienta",HerramientaSchema)
